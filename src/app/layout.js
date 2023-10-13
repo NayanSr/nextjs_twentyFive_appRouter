@@ -9,13 +9,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header>
-          <p>This is HEADER</p>
-        </header>
-        {children}
-        <footer>
-          <p>This is FOOTER</p>
-        </footer>
+        <div style={{ minHeight: "60vh", backgroundColor: "rgb(68, 50, 50)" }}>
+          {children}
+        </div>
       </body>
     </html>
   );

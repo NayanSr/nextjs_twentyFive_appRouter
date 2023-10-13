@@ -1,9 +1,9 @@
-"use client";
+// "use client";
 
 import React from "react";
 
 export default function HomePage() {
-  console.log("console where");
+  // console.log("console where");
   return (
     <div>
       <h2 className="text-2xl">
